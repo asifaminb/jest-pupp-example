@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "serve": "http-server -p 8086 src/"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
@@ -9,5 +10,8 @@
     "prettier": "^1.18.2",
     "puppeteer": "^1.17.0",
     "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }

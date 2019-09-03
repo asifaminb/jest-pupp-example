@@ -22,6 +22,11 @@ jobs:
 
       - run: yarn install
 
+      - run:
+          name: yarn serve
+          command: yarn serve
+          background: true
+
       - save_cache:
           paths:
             - node_modules

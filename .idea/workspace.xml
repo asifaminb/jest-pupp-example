@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a490448f-0ee1-435b-9975-543aea1f854d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__tests__/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/test1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/test2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/test3.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/test3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +63,7 @@
       <workItem from="1567506850319" duration="142000" />
       <workItem from="1567509129061" duration="1308000" />
       <workItem from="1567510676979" duration="2017000" />
+      <workItem from="1567513433351" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="sadf">
       <created>1567512464448</created>

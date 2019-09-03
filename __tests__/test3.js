@@ -6,7 +6,7 @@ describe(
     let page
     beforeAll(async () => {
       page = await global.__BROWSER__.newPage()
-      await page.goto('https://qld-gov-au.github.io/web-template-release/')
+      await page.goto('http://localhost:8086/')
     }, timeout)
 
     afterAll(async () => {
