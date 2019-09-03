@@ -6,9 +6,8 @@ describe(
   () => {
     let page
     beforeAll(async () => {
-      jest.setTimeout(10000);
       page = await global.__BROWSER__.newPage()
-      await page.goto('http://localhost:8086/docs/components.html')
+      await page.goto('http://localhost:8086/docs/components.html', {waitUntil: 'load', timeout: 700000})
     }, timeout)
 
     afterAll(async () => {
@@ -20,7 +19,7 @@ describe(
       await page.waitForSelector('.listbox li')
       const list = (await page.$$('.listbox li')).length;
       return expect(list).toBeGreaterThan(0);
-    }, 76000)
+    })
   },
   timeout
 )
