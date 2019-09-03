@@ -1,4 +1,4 @@
-const timeout = 5000
+const timeout = 15000
 
 
 describe(
@@ -20,13 +20,6 @@ describe(
       const list = (await page.$$('.listbox li')).length;
       expect(list).toBeGreaterThan(0);
     })
-    it('Feedback form is working as expected', async () => {
-      expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).toBe('none');
-      (await page.$('#page-feedback-useful')).click();
-      await page.waitForSelector('#page-feedback-about-this-website')
-      await page.click('input[name=page-feedback-about]')
-      expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).not.toBe('none');
-    });
   },
   timeout
 )
