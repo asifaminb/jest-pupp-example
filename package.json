@@ -8,10 +8,11 @@
     "chalk": "^2.4.2",
     "jest": "^24.8.0",
     "prettier": "^1.18.2",
-    "puppeteer": "^1.17.0",
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "http-server": "^0.11.1"
+    "chromium": "^2.1.1",
+    "http-server": "^0.11.1",
+    "puppeteer": "^1.19.0"
   }
 }
