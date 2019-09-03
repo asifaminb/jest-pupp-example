@@ -14,10 +14,19 @@ describe(
       await page.close()
     })
 
-    it('should load without error', async () => {
-      let text = await page.evaluate(() => document.body.textContent)
-      expect(text).toContain('Web Template Documentation')
+    it('Autocomplete is working as expected', async () => {
+      await page.type('input[id=qg-search-query]', 'jobs', {delay: 20})
+      await page.waitForSelector('.listbox li')
+      const list = (await page.$$('.listbox li')).length;
+      expect(list).toBeGreaterThan(0);
     })
+    it('Feedback form is working as expected', async () => {
+      expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).toBe('none');
+      (await page.$('#page-feedback-useful')).click();
+      await page.waitForSelector('#page-feedback-about-this-website')
+      await page.click('input[name=page-feedback-about]')
+      expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).not.toBe('none');
+    });
   },
   timeout
 )
