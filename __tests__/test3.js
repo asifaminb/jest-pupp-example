@@ -6,7 +6,7 @@ describe(
     let page
     beforeAll(async () => {
       page = await global.__BROWSER__.newPage()
-      await page.goto('http://localhost:8086/')
+      await page.goto('http://localhost:8086/docs/components.html')
     }, timeout)
 
     afterAll(async () => {

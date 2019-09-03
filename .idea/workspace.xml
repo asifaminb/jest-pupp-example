@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a490448f-0ee1-435b-9975-543aea1f854d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/docs/components.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__tests__/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/test1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__tests__/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/test2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__tests__/test3.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/test3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       <workItem from="1567506850319" duration="142000" />
       <workItem from="1567509129061" duration="1308000" />
       <workItem from="1567510676979" duration="2017000" />
-      <workItem from="1567513433351" duration="407000" />
+      <workItem from="1567513433351" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="sadf">
       <created>1567512464448</created>
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567513655780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sadf">
+      <created>1567513861268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567513861268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
