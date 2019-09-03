@@ -19,7 +19,7 @@ describe(
       await page.type('input[id=qg-search-query]', 'jobs', {delay: 20})
       await page.waitForSelector('.listbox li')
       const list = (await page.$$('.listbox li')).length;
-      expect(list).toBeGreaterThan(0);
+      return expect(list).toBeGreaterThan(0);
     }, timeout)
   },
   timeout
