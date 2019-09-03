@@ -20,7 +20,7 @@ describe(
       await page.waitForSelector('.listbox li')
       const list = (await page.$$('.listbox li')).length;
       expect(list).toBeGreaterThan(0);
-    })
+    }, timeout)
   },
   timeout
 )
