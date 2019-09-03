@@ -6,6 +6,7 @@ describe(
   () => {
     let page
     beforeAll(async () => {
+      jest.setTimeout(10000);
       page = await global.__BROWSER__.newPage()
       await page.goto('http://localhost:8086/docs/components.html')
     }, timeout)
