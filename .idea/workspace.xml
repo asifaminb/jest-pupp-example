@@ -19,6 +19,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1QK6Gw2SxhmBmL6Pa0pDPplZIDf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -50,7 +51,7 @@
       <updated>1567506849014</updated>
       <workItem from="1567506850319" duration="142000" />
       <workItem from="1567509129061" duration="1308000" />
-      <workItem from="1567510676979" duration="1399000" />
+      <workItem from="1567510676979" duration="1538000" />
     </task>
     <servers />
   </component>
