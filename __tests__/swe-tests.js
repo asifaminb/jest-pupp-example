@@ -13,7 +13,7 @@ beforeAll(async () => {
 describe('SWE tests', () => {
   test('has search input', async () => {
     await page.setViewport({ width: 1280, height: 800 })
-    await page.goto('https://qld-gov-au.github.io/web-template-release/components.html', { waitUntil: 'networkidle0' })
+    await page.goto('http://localhost:8086/docs/components.html', { waitUntil: 'networkidle0' })
     await page.type('input[id=qg-search-query]', 'jobs', {delay: 20})
     await page.waitForSelector('.listbox li')
     const list = (await page.$$('.listbox li')).length;
