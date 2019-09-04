@@ -24,8 +24,7 @@ describe('SWE tests', () => {
     await page.waitForSelector('#page-feedback-useful')
     expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).toBe('none');
     (await page.$('#page-feedback-useful')).click();
-    await page.waitForSelector('#page-feedback-about-this-website')
-    await page.click('input[name=page-feedback-about]')
+    await page.waitFor(3000);
     expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).not.toBe('none');
   })
 
