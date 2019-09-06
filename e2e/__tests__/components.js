@@ -11,23 +11,16 @@ beforeAll(async () => {
   page = await browser.newPage()
 })
 
-describe('SWE templates testing', () => {
-  test('has search input', async () => {
+describe('SWE Components testing', () => {
+  test('twitter and facebook feed is working as expected', async () => {
     await page.setViewport({ width: ct.BT_XL, height: 800 })
     await page.goto(`${ct.APP_URL}/docs/components.html`, { waitUntil: 'networkidle0' })
-    await page.type('input[id=qg-search-query]', 'jobs', {delay: 20})
-    await page.waitForSelector('.listbox li')
-    const list = (await page.$$('.listbox li')).length;
-    expect(list).toBeGreaterThan(0);
-  }, ct.TIMEOUT)
-
-  test('shows search results after search input', async () => {
-    const pfel = '#page-feedback-useful';
-    await page.waitForSelector(pfel)
-    expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).toBe('none');
-    (await page.$(pfel)).click();
-    await page.waitFor(3000);
-    expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).not.toBe('none');
+    // twitter widget exist
+    const searchInput = await page.$('#twitter-widget-0')
+    expect(searchInput).toBeTruthy()
+    //facebook widget exist
+    const getFbAttr = await page.evaluate('document.querySelector(".fb_iframe_widget").getElementsByTagName("iframe")[0].getAttribute("src")');
+    expect(getFbAttr).toMatch(/https:\/\/www.facebook.com/);
   })
 
   afterAll(async () => {
