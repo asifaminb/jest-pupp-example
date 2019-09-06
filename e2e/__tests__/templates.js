@@ -29,7 +29,6 @@ describe('SWE templates testing', () => {
     await page.waitFor(3000);
     expect(await page.evaluate('window.getComputedStyle(document.getElementById(\'qg-page-feedback\')).getPropertyValue("display")')).not.toBe('none');
   })
-
   afterAll(async () => {
     await browser.close()
   })
