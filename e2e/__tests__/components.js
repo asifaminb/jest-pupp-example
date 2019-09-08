@@ -23,6 +23,7 @@ describe('SWE Components testing', () => {
     expect(getFbAttr).toMatch(/https:\/\/www.facebook.com/);
   })
 
+
   test('Casousel is working as expected', async () => {
     await page.setViewport({ width: ct.BT_XL, height: 800 })
     await page.goto(`${ct.APP_URL}/docs/components.html`, { waitUntil: 'networkidle0' })

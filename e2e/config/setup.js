@@ -11,7 +11,7 @@ module.exports = async function() {
   console.log(chalk.green('Setup Puppeteer'))
   const browser = await puppeteer.launch({
     executablePath:
-      "./node_modules/chromium/lib/chromium/chrome-linux/chrome",
+      "/usr/bin/google-chrome",
   })
   // This global is not available inside tests but only in global teardown
   global.__BROWSER_GLOBAL__ = browser
