@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a490448f-0ee1-435b-9975-543aea1f854d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/__tests__/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/__tests__/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/setup.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,8 @@
       <workItem from="1567510676979" duration="2017000" />
       <workItem from="1567513433351" duration="2193000" />
       <workItem from="1567552217349" duration="14537000" />
-      <workItem from="1567654598255" duration="8378000" />
+      <workItem from="1567654598255" duration="9973000" />
+      <workItem from="1567984943059" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="sadf">
       <created>1567512464448</created>
@@ -263,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567752109685</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="sadf">
+      <created>1567752271531</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1567752271531</updated>
+    </task>
+    <task id="LOCAL-00026" summary="sadf">
+      <created>1567986754322</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567986754322</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
