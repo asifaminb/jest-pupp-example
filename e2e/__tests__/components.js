@@ -11,6 +11,7 @@ beforeAll(async () => {
   page = await browser.newPage()
 })
 
+
 describe('SWE Components testing', () => {
   test('twitter and facebook feed is working as expected', async () => {
     await page.setViewport({ width: ct.BT_XL, height: 800 })

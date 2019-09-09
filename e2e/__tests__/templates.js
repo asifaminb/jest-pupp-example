@@ -12,6 +12,7 @@ beforeAll(async () => {
 })
 
 
+
 describe('SWE templates testing', () => {
   test('has search input', async () => {
     await page.setViewport({ width: ct.BT_XL, height: 800 })
