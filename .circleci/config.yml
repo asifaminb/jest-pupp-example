@@ -27,11 +27,6 @@ jobs:
           command: npm serve
           background: true
 
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
       - run: npm test
 
 
