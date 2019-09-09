@@ -23,8 +23,8 @@ jobs:
       - run: npm install
 
       - run:
-          name: npm serve
-          command: npm serve
+          name: npm run serve
+          command: npm run serve
           background: true
 
       - run: npm test
