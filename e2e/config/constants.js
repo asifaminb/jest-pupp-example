@@ -1,5 +1,5 @@
 module.exports = {
-  APP_URL: "http://localhost:8087",
+  APP_URL: "http://localhost:8088",
   CHROME_PATH: "./node_modules/chromium/lib/chromium/chrome-linux/chrome",
   BT_SM: 576,
   BT_MD: 768,

@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "serve": "http-server -p 8087 src/"
+    "serve": "http-server -p 8088 src/"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
