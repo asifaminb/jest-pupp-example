@@ -1,5 +1,5 @@
 const chalk = require('chalk')
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-core')
 const fs = require('fs')
 const mkdirp = require('mkdirp')
 const os = require('os')

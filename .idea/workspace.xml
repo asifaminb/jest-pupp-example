@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a490448f-0ee1-435b-9975-543aea1f854d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/e2e/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/__tests__/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/__tests__/components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/__tests__/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/__tests__/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/puppeteer_environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/puppeteer_environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,6 +83,16 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,7 +109,10 @@
       <workItem from="1567513433351" duration="2193000" />
       <workItem from="1567552217349" duration="14537000" />
       <workItem from="1567654598255" duration="9973000" />
-      <workItem from="1567984943059" duration="4223000" />
+      <workItem from="1567984943059" duration="7505000" />
+      <workItem from="1568000011397" duration="7571000" />
+      <workItem from="1568159801000" duration="3583000" />
+      <workItem from="1568182389520" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="sadf">
       <created>1567512464448</created>
@@ -320,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567989043559</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="sadf">
+      <created>1567989175120</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1567989175120</updated>
+    </task>
+    <task id="LOCAL-00034" summary="sadf">
+      <created>1567989276492</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1567989276492</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

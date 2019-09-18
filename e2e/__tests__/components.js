@@ -1,8 +1,9 @@
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-core')
 const ct = require('../config/constants');
 
 let browser
 let page
+
 
 beforeAll(async () => {
   browser = await puppeteer.launch({
